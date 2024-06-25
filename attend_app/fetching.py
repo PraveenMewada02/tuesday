@@ -201,7 +201,7 @@ database_url = "postgres://default:uWiPqh7zO4SQ@ep-square-wood-a15wl9fx.ap-south
 engine = create_engine(database_url)
 
 # API credentials
-api_url_template = "https://api.etimeoffice.com/api/DownloadInOutPunchData?Empcode=0004&FromDate={}&ToDate={}"
+api_url_template = "https://api.etimeoffice.com/api/DownloadInOutPunchData?Empcode=&FromDate={}&ToDate={}"
 api_key = "ORANGEDATATECH:HR@Orange:UY7g2#!gWEA6kB8:true"
 
 # Encode the API key in base64

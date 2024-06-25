@@ -184,7 +184,7 @@ engine = create_engine(database_url)
 # previousdate = (datetime.now() - timedelta(days=1)).strftime('%d-%m-%Y')
 # presentdate = datetime.now().strftime('%d-%m-%Y')
 
-api_url = f"https://api.etimeoffice.com/api/DownloadInOutPunchData?Empcode=ALL&FromDate=00/00/0000&ToDate=00/00/0000"
+api_url = f"https://api.etimeoffice.com/api/DownloadInOutPunchData?Empcode=ALL&FromDate=01/09/2023&ToDate=24/06/2024"
 api_key = "ORANGEDATATECH:HR@Orange:UY7g2#!gWEA6kB8:true"
 
 # Encode the API key in base64

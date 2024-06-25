@@ -3,7 +3,7 @@ from . import views
 from .views import UserUpdateAPIView,EmployerProfileEditView,UserDeleteAPIView,EmployeeDetailsUpdateAPIView
 from django.urls import include, path
 from rest_framework import routers
-from .views import fetch_and_store_data,check_missing_intime
+from .views import fetch_and_store_data #check_missing_intime
 
 
 
@@ -25,7 +25,7 @@ urlpatterns = [
     #count
     path('dashboard_data', fetch_and_store_data, name='fetch_data'),
     #mail
-    path('send_mail', views.send_missing_intime_alert, name='send_missing_intime_alert'),
+    #path('send_mail', views.send_missing_intime_alert, name='send_missing_intime_alert'),
     #email
     # count url
     # path('dashboard_data', fetch_and_store_data, name='fetch_data'),
