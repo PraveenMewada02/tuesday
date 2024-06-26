@@ -123,16 +123,6 @@ ALLOWED_HOSTS = ['*']
 
 from pathlib import Path
 
-# BASE_DIR = Path(__file__).resolve().parent.parent
-
-# os.environ['DATABASE_URL'] = 'postgres://gdb_9usu_user:1WIRSGucNXebb5DcoSI1e2hp7RNSuRwn@dpg-cpa5u6dds78s73crqbag-a.singapore-postgres.render.com/gdb_9usu'
-
-# DATABASES = {
-#     'default': dj_database_url.config(
-#         default=os.getenv('DATABASE_URL')
-#     )
-# }
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 os.environ['DATABASE_URL'] = "postgres://default:uWiPqh7zO4SQ@ep-square-wood-a15wl9fx.ap-southeast-1.aws.neon.tech:5432/verceldb?sslmode=require"
