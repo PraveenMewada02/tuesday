@@ -90,7 +90,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'attend_project.wsgi.app'
+WSGI_APPLICATION = 'attend_project.wsgi.application'
 
 
 # REST_FRAMEWORK = {
