@@ -16,7 +16,7 @@ urlpatterns = [
     path('employee_details/<int:employee_id>/',EmployeeDetailsUpdateAPIView.as_view(), name='Employee_Details_UpdateAPIView'),
     path('<str:username>/', UserUpdateAPIView.as_view(),name='User-Update-API-View'),
     path('employer-profile/<int:employer_id>/',EmployerProfileEditView.as_view(),name='Employer_Profile_UpdateAPIView'),
-    path('delete/<str:username>/', UserDeleteAPIView.as_view(), name='user-delete'),,
+    path('delete/<str:username>/', UserDeleteAPIView.as_view(), name='user-delete'),
     path('getemployeedetails/<int:employer_id>/', views.get_employee_by_employer_id, name='employee-by-employer-id'),
     path('getemployerdetails/<int:employer_id>/', views.get_employer_details, name='employer-detail-by-employer-id'),
     #count
